@@ -1,0 +1,23 @@
+5 is an integer
+
+5.0 is a floating-point number
+
+5 > 1 is a boolean (True or False) expression
+
+'5' is a string
+
+5 * 2 is an integer
+
+'5' * 2 is a string (it repeats the original string twice)
+
+'5' + '2' is a string (concatenation of two strings)
+
+5 / 2 is a floating-point number
+
+5 % 2 is an integer (modulus or remainder)
+
+{5, 2, 1} is a set
+
+5 == 3 is a boolean (True or False) expression
+
+Pi (the number) is a floating-point number.
