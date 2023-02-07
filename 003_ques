@@ -1,0 +1,18 @@
+Code:
+using System;
+
+namespace TriangleArea
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(triangleArea(3, 4, 5));
+        }
+
+        static double triangleArea(double a, double b, double c)
+        {
+            double s = (a + b + c) / 2;
+            return Math.Sqrt(s * (s - a) * (s - b) * (s - c));
+        }
+    }
