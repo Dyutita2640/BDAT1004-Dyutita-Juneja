@@ -1,0 +1,9 @@
+code a
+public static bool Inside(double x, double y, double x1, double y1, double x2, double y2)
+{
+    return x >= x1 && x <= x2 && y >= y1 && y <= y2;
+}
+
+
+code b
+bool pointInBothRectangles = inside(1, 1, 0.3, 0.5, 1.1, 0.7) && inside(1, 1, 0.5, 0.2, 1.1, 2);
