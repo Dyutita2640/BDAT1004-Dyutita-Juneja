@@ -1,0 +1,25 @@
+Code a:
+string word = "Supercalifragilisticexpialidocious";
+int letterCount = word.Length;
+
+Code b:
+string word = "Supercalifragilisticexpialidocious";
+bool containsIce = word.Contains("ice");
+
+Code c:
+string[] words = { "Supercalifragilisticexpialidocious", "Honorificabilitudinitatibus", "Bababadalgharaghtakamminarronnkonn" };
+int longestIndex = 0;
+for (int i = 1; i < words.Length; i++)
+{
+    if (words[i].Length > words[longestIndex].Length)
+    {
+        longestIndex = i;
+    }
+}
+string longestWord = words[longestIndex];
+
+Code D:
+string[] composers = { "Berlioz", "Borodin", "Brian", "Bartok", "Bellini", "Buxtehude", "Bernstein" };
+Array.Sort(composers);
+string first = composers[0];
+string last = composers[composers.Length - 1];
