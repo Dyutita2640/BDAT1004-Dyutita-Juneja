@@ -1,0 +1,44 @@
+using System;
+
+namespace OddEvenArrays
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            int[] evenNumbers = new int[numbers.Length];
+            int[] oddNumbers = new int[numbers.Length];
+            int evenIndex = 0;
+            int oddIndex = 0;
+
+            foreach (int number in numbers)
+            {
+                if (number % 2 == 0)
+                {
+                    evenNumbers[evenIndex] = number;
+                    evenIndex++;
+                }
+                else
+                {
+                    oddNumbers[oddIndex] = number;
+                    oddIndex++;
+                }
+            }
+
+            Console.WriteLine("Even Numbers:");
+            for (int i = 0; i < evenIndex; i++)
+            {
+                Console.WriteLine(evenNumbers[i]);
+            }
+
+            Console.WriteLine("Odd Numbers:");
+            for (int i = 0; i < oddIndex; i++)
+            {
+                Console.WriteLine(oddNumbers[i]);
+            }
+
+            Console.ReadLine();
+        }
+    }
+}
