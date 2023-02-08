@@ -1,0 +1,16 @@
+def frequencies(text):
+    # Define the string of letters
+    letters = 'abcdefghijklmnopqrstuvwxyz'
+
+    # Initialize a list of counts to store the frequency of each letter
+    counts = [0] * 26
+
+    # Iterate over each character in the text
+    for char in text:
+        # Check if the character is in the string of letters
+        if char in letters:
+            # Increment the count for the corresponding letter
+            index = letters.index(char)
+            counts[index] += 1
+
+    return counts
