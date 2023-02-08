@@ -1,0 +1,6 @@
+def curconv(currency, amount):
+    exchange_rate = fetch_exchange_rate(currency)
+    return amount * exchange_rate
+
+def fetch_exchange_rate(currency):
+    return 1.0
