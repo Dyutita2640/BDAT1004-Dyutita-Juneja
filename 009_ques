@@ -1,0 +1,5 @@
+TypeError: Adding an integer and a string is not allowed in Python and will raise a TypeError.
+IndexError: Trying to access an item in a list that doesn't exist will raise an IndexError.
+ValueError: Calling math.sqrt with a negative number as input will raise a ValueError.
+NameError: Using a variable that has not been defined will raise a NameError.
+FileNotFoundError: Trying to open a file that doesn't exist will raise a FileNotFoundError.
